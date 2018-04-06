@@ -28,7 +28,7 @@ $("#back_button").on("click", function(){
 
 // View All Button
 $("#view_all").on("click", function(){
-	// if all images are shown hide em and show only one
+	// if all images are shown hide them and show only one
 	if(viewAllImages) {
 		viewAllImages = false;
 		$(".imageGallery").addClass("viewAllImgHidden");
